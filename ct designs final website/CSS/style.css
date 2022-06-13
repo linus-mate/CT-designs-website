@@ -1,0 +1,615 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:;
+	transition: all .2s;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: 'spartan', sans-serif;
+	list-style: none;
+}
+.first-page{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/zia.png');
+	background-size: cover;
+	background-position: center;
+	margin-right: 0px;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	background-color:;
+	line-height: 80px;
+	opacity: .9;
+	position: -webkit-sticky;
+	position: sticky;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+nav i{
+	color: white;
+	float: left;
+	font-size: 1.5rem;
+	margin-left: 150px;
+	padding-top: 40px;
+}
+nav .customer-icons{
+	float: right;
+	margin-right: 180px;
+}
+.customer-icons div{
+	display: inline-block;
+	color: white;
+	padding: 20px;
+	font-size: 1.5rem;
+
+}
+#logo img{
+	width: 110px;
+	height: ;
+	border-radius: 50px;
+	float:;
+	margin-left: 450px;
+	margin-top: 10px;
+}
+.content{
+	text-align: center;
+	margin-right:;
+	padding-top: 130px;
+}
+.content h2{
+	font-family: 'Allura',  cursive;
+	font-size: 30px;
+	text-align: center;
+	color: floralwhite;
+	padding: 1rem;
+}
+.content button{
+	font-family: 'Allura',  cursive;
+	background: #088178;
+	padding: 10px;
+	color: white;
+	border-radius: 15px;
+	font-size: 1rem;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+.content button:hover{
+	background: darkgoldenrod;
+	color: black;
+	cursor: pointer;
+}
+.second-page{
+	padding: 2rem 5%;
+	background: black;
+}
+.collections{
+	padding-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 85px;
+}
+
+.second-page h1{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-family: 'Allura',  cursive;
+	padding: 20px;
+}
+.second-page h2{
+	color: white;
+	text-align: center;
+}
+.merch1{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/azz.webp');
+	min-width: 400px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+  cursor: pointer; 
+}
+.merch2{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/blouse.jpg');
+	min-width: 400px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch2:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+.merch3{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/jack.jpg');
+	min-width: 250px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch3:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.merch4{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/dress.jpg');
+	min-width: 250px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch4:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.merch5{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/hood.jpg');
+	min-width: 250px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch5:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.merch6{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/ss.avif');
+	min-width: 350px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch6:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.merch7{
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/sg.webp');
+	min-width: 350px;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+	transition: transform .2s;
+}
+.merch7:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.merch1 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.merch2 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.merch3 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.merch4 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.merch5 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.merch6 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.merch7 h2{
+	text-align: center;
+	padding-top: 180px;
+	font-size: 30px;
+}
+.bags{
+	padding: 2rem;
+	background: black;
+	width:;
+}
+.bags h1{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding-bottom: 4rem;
+	font-family: 'Allura',  cursive;
+}
+.bags-collection{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	text-align: center;
+	padding:;
+}
+.bags-collection h2{
+	padding: 0.5rem;
+	font-size: 1rem;
+	color: white;
+}
+.bags-collection p{
+	font-weight: 300;
+	padding-bottom: 10px;
+	color: white;
+}
+.customer-bag1 img{
+	min-width: 150px;
+	height: 70vh;
+	opacity: 2.0;
+}
+.customer-bag1 img:hover{
+	opacity: 0.8;
+}
+
+.customer-bag2 img{
+	min-width: 200px;
+	height: 30vh;
+	opacity: 2.0;
+}
+.customer-bag2 img:hover{
+	opacity: 0.8;
+}
+.customer-bag3 img{
+	min-width: 150px;
+	height: 70vh;
+	opacity: 2.0;
+}
+.customer-bag3 img:hover{
+	opacity: 0.8;
+}
+.offer{
+	padding: 2rem 5%;
+	color: white;
+	background: black;
+}
+.offer h1{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-family: 'Allura',  cursive;
+	padding-bottom: 60px;
+}
+.customer{
+	display: flex;
+	gap: 100px;
+	flex-wrap: wrap;
+}
+.customer-offer img{
+	min-width: 200px;
+	height: 70vh;
+	padding-left: 45px;
+	opacity: 2.0;
+}
+.customer-offer img:hover{
+	opacity: 0.8;
+}
+.image-content{
+	text-align: center;
+}
+.image-content h2{
+	padding: 1rem;
+	font-size: 20px;
+	margin-left: ;
+}
+.image-content h6{
+	padding: 1rem;
+	font-size: 25px;
+	margin-left: ;
+}
+.image-content h3{
+	padding: 1rem;
+	font-size: 16px;
+	margin-right: ;
+}
+.image-content ul li{
+	display: inline; 
+	padding: 10px;
+	border: white solid;
+	margin: 10px;
+	color: white;
+}
+.image-content p{
+	padding: 1rem;
+	font-size: 15px;
+	font-weight: 600;
+	border: coral solid;
+	margin-bottom: 10px;
+	line-height: 20px;
+	margin-top: 30px;
+	background: coral;
+	color: white;
+	padding-left: ;
+}
+.image-content p:hover{
+	color: gold;
+}
+.image-content .buy{
+	background:none;
+	color: coral;
+	padding-left: ;
+}
+.image-content h4{
+	padding: 1.5rem;
+	font-size: 20px;
+	margin-left: ;
+}
+.image-content ul li:hover{
+	background-color: gold;
+}
+.banners{
+	padding: 2rem 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	background: black;
+}
+.banners .banner1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/cover.jpg');
+	min-width: 500px;
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+.banners .banner2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../images/tote.jpg');
+	min-width: 500px;
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+.banners h4{
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+.banners h2{
+	color: white;
+	font-size: 28px;
+	font-weight: 800;
+}
+.banners span{
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+	padding-bottom: 15px;
+}
+.banners button{
+	font-size: 13px;
+	font-weight: 600;
+	padding: 11px 18px;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	border: 1px solid;
+	outline: none;
+}
+.banners .banner1:hover button{
+	background: lightseagreen;
+}
+.banners .banner2:hover button{
+	background: lightseagreen;
+}
+.testimonials{
+	padding: 2rem 5%;
+	background: black;
+}
+.testimonials h1{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: 'Allura',  cursive;
+	padding: 20px;
+}
+.customer-testimonials{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+}
+.testimony{
+	padding-bottom: 120px;
+}
+.testimony p{
+	color: white;
+	padding: 1.5rem;
+}
+.com{
+	text-align: center;
+	font-weight: 600;
+	padding-bottom: ;
+}
+.interact{
+	padding: 2rem 5%;
+	background: #292930;
+}
+.customer-interact{
+	padding: 10px;
+	text-align: center;
+	line-height: 50px;
+}
+.interact .form{
+	text-align: center;
+	padding-top: 70px;
+	margin-bottom: ;
+	padding-bottom: 120px;
+}
+.interact h4{
+	font-size: 22px;
+	font-weight: 700;
+	color: white;
+	padding: 10px;
+}
+.interact p{
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	padding: 10px;
+}
+.interact span{
+	color: yellow;
+}
+.interact input{
+	height: 3.125rem;
+	padding: 0 1.25em;
+	font-size: 14px;
+	width:30%;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	outline: none;
+	border-top-right-radius: 0;
+	border-top-right-radius: 0;
+	background: ;
+	color: black;
+} 
+.interact  button{
+	height: 3.125rem;
+	font-size: 13px;
+	font-weight: 600;
+	padding:  0 1.25em;
+	color: white;
+	background-color: coral;
+	cursor: pointer;
+	border: 1px solid;
+	outline: none;
+	white-space: nowrap;
+	border-top-left-radius: 0;
+	border-top-left-radius: 0;
+}
+.main-footer{
+	background: beige;
+	padding: 3rem 7%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.our-footer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+.logo{
+	margin-bottom: 30px;
+	width: 150px;
+	border-radius: 50px;
+}
+.contact-us{
+	padding: 10px;
+}
+.contact-us span{
+	color: lightseagreen;
+	font-size: 15px;
+}
+.main-footer img{
+	width: ;
+}
+.main-footer h4{
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+.main-footer p{
+	font-size: 15px;
+	margin: 0 0 8px 0;
+}
+.main-footer a{
+	font-size: 14px;
+	color: lightseagreen;
+	margin-bottom: 10px;
+}
+.follow{
+	margin-top: 20px;
+}
+.follow i{
+	color: lightseagreen;
+	padding-right: 4px;
+	cursor: pointer;
+}
+.follow i:hover{
+	color: gold;
+}
+.main-footer a:hover{
+	color: gold;
+}
+.footer-icons img{
+	border: 1px solid lightseagreen;
+	border-radius: 6px;
+	width: 150px;
+}
+.install img{
+	margin: 10px 0 15px 0;
+	width: 130px;
+}
+
+
+
+
+@media (max-width: 760px) {
+	html{
+		font-size: 55%;
+	}
+}
