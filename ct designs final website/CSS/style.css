@@ -47,7 +47,6 @@ nav .customer-icons{
 }
 #logo img{
 	width: 110px;
-	height: ;
 	border-radius: 50px;
 	margin-left: 450px;
 	margin-top: 10px;
@@ -468,7 +467,7 @@ nav .customer-icons{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: 80px;
+	gap: 50px;
 }
 .testimony{
 	padding-bottom: 120px;
@@ -476,6 +475,7 @@ nav .customer-icons{
 .testimony p{
 	color: white;
 	padding: 1.5rem;
+	font-size: 15px;
 }
 .com{
 	text-align: center;
